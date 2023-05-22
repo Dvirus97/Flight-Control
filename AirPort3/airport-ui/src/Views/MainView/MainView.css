@@ -1,0 +1,20 @@
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    gap: 2em;
+}
+
+.title {
+    aspect-ratio: 5/1;
+    object-fit: cover;
+    height: 150px;
+}
+
+footer {
+    width: 100%;
+    font-size: 2vmin;
+    text-align: left;
+    position: fixed;
+    top: 2vmin;
+    left: 2vmin;
+}

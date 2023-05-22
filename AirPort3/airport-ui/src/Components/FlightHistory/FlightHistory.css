@@ -1,0 +1,39 @@
+/* .FlightHistory {
+} */
+
+.FlightHistory .table .row {
+    display: flex;
+    border-bottom: 1px solid;
+}
+.FlightHistory .table .table-head .row {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.FlightHistory .table .row:nth-child(even) {
+    background-color: #333232;
+}
+
+.FlightHistory .table .row .col {
+    flex: 1;
+    /* font-size: 1em; */
+    padding: 0.5em 0;
+}
+
+.FlightHistory .table .table-body {
+    border: 1px solid;
+}
+
+
+.FlightHistory {
+    grid-column: 1 / span 3;
+}
+
+.FlightHistory label {
+    display: grid;
+    place-content: center;
+}
+
+.FlightHistory label input {
+    text-align: center;
+    line-height: 3em;
+}
